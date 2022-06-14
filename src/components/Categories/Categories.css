@@ -1,0 +1,358 @@
+.div-cards {
+    height: 256px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* padding: 30px; */
+}
+
+.card-one {
+    width: 230px;
+    height: 256px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background-color: blue;
+    background-image: url('../../images/category-1.jpeg');
+    background-size: cover;
+    /* background: linear-gradient(22.05deg, rgba(0, 0, 0, 0.5) 14.41%, rgba(73, 73, 73, 0.5) 57.21%, rgba(255, 255, 255, 0) 100%), url('../../images/category-1.jpeg'); */
+    cursor: pointer;
+}
+
+.card-two {
+    width: 230px;
+    height: 256px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    margin-left: 174px;
+    margin-right: 174px;
+    background-size: cover;
+    background-image: url('../../images/category-2.jpeg');
+    /* background: linear-gradient(22.05deg, rgba(0, 0, 0, 0.5) 14.41%, rgba(73, 73, 73, 0.5) 57.21%, rgba(255, 255, 255, 0) 100%), url('../../images/category-2.jpeg'); */
+    cursor: pointer;
+}
+
+.card-three {
+    width: 230px;
+    height: 256px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background-size: cover;
+    background-image: url('../../images/category-3.jpeg');
+    /* background: linear-gradient(22.05deg, rgba(0, 0, 0, 0.5) 14.41%, rgba(73, 73, 73, 0.5) 57.21%, rgba(255, 255, 255, 0) 100%), url('../../images/category-3.jpeg'); */
+    cursor: pointer;
+}
+
+.cat-one {
+    margin-top: 220px;
+    color: white;
+}
+
+.cat-two {
+    margin-top: 220px;
+    color: white;
+}
+
+.cat-three {
+    margin-top: 220px;
+    color: white;
+}
+
+@media only screen and (max-width: 1050px) {
+    .div-cards {
+        height: 256px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        /* padding: 30px; */
+    }
+    
+    .card-one {
+        width: 172.5px;
+        height: 192px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+        background-color: blue;
+        background-image: url('../../images/category-1.jpeg');
+        /* background-image: url('../images/category-1.jpeg'); */
+        background-size: cover;
+        /* background: linear-gradient(22.05deg, rgba(0, 0, 0, 0.5) 14.41%, rgba(73, 73, 73, 0.5) 57.21%, rgba(255, 255, 255, 0) 100%), url('../../images/category-1.jpeg'); */
+        cursor: pointer;
+    }
+    
+    .card-two {
+        width: 172.5px;
+        height: 192px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+        margin-left: 150px;
+        margin-right: 150px;
+        background-size: cover;
+        background-image: url('../../images/category-2.jpeg');
+        /* background: linear-gradient(22.05deg, rgba(0, 0, 0, 0.5) 14.41%, rgba(73, 73, 73, 0.5) 57.21%, rgba(255, 255, 255, 0) 100%), url('../../images/category-2.jpeg'); */
+        cursor: pointer;
+    }
+    
+    .card-three {
+        width: 172.5px;
+        height: 192px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+        background-size: cover;
+        background-image: url('../../images/category-3.jpeg');
+        /* background: linear-gradient(22.05deg, rgba(0, 0, 0, 0.5) 14.41%, rgba(73, 73, 73, 0.5) 57.21%, rgba(255, 255, 255, 0) 100%), url('../../images/category-3.jpeg'); */
+        cursor: pointer;
+    }
+    
+    .cat-one {
+        margin-top: 160px;
+        color: white;
+        font-size: 28px;
+    }
+    
+    .cat-two {
+        margin-top: 160px;
+        color: white;
+        font-size: 28px;
+    }
+    
+    .cat-three {
+        margin-top: 160px;
+        color: white;
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .div-cards {
+        height: 256px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        /* padding: 30px; */
+    }
+    
+    .card-one {
+        width: 172.5px;
+        height: 192px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+        background-color: blue;
+        /* background-image: url('../images/category-1.jpeg'); */
+        background-size: cover;
+        background-image: url('../../images/category-1.jpeg');
+        /* background: linear-gradient(22.05deg, rgba(0, 0, 0, 0.5) 14.41%, rgba(73, 73, 73, 0.5) 57.21%, rgba(255, 255, 255, 0) 100%), url('../../images/category-1.jpeg'); */
+        cursor: pointer;
+    }
+    
+    .card-two {
+        width: 172.5px;
+        height: 192px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+        margin-left: 80px;
+        margin-right: 80px;
+        background-size: cover;
+        background-image: url('../../images/category-2.jpeg');
+        cursor: pointer;
+        /* linear-gradient(22.05deg, rgba(0, 0, 0, 0.5) 14.41%, rgba(73, 73, 73, 0.5) 57.21%, rgba(255, 255, 255, 0) 100%),  */
+    }
+    
+    .card-three {
+        width: 172.5px;
+        height: 192px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+        background-size: cover;
+        background-image: url('../../images/category-3.jpeg');
+        /* background: linear-gradient(22.05deg, rgba(0, 0, 0, 0.5) 14.41%, rgba(73, 73, 73, 0.5) 57.21%, rgba(255, 255, 255, 0) 100%), url('../../images/category-3.jpeg'); */
+        cursor: pointer;
+    }
+    
+    .cat-one {
+        margin-top: 160px;
+        color: white;
+        font-size: 28px;
+    }
+    
+    .cat-two {
+        margin-top: 160px;
+        color: white;
+        font-size: 28px;
+    }
+    
+    .cat-three {
+        margin-top: 160px;
+        color: white;
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    .div-cards {
+        height: 256px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        /* padding: 30px; */
+    }
+    
+    .card-one {
+        width: 123.3px;
+        height: 170.6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+        background-color: blue;
+        /* background-image: url('../images/category-1.jpeg'); */
+        background-size: cover;
+        background-image: url('../../images/category-1.jpeg');
+        /* background: linear-gradient(22.05deg, rgba(0, 0, 0, 0.5) 14.41%, rgba(73, 73, 73, 0.5) 57.21%, rgba(255, 255, 255, 0) 100%), url('../../images/category-1.jpeg'); */
+        cursor: pointer;
+    }
+    
+    .card-two {
+        width: 123.3px;
+        height: 170.6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+        margin-left: 50px;
+        margin-right: 50px;
+        background-size: cover;
+        background-image: url('../../images/category-2.jpeg');
+        /* background: linear-gradient(22.05deg, rgba(0, 0, 0, 0.5) 14.41%, rgba(73, 73, 73, 0.5) 57.21%, rgba(255, 255, 255, 0) 100%), url('../../images/category-2.jpeg'); */
+        cursor: pointer;
+    }
+    
+    .card-three {
+        width: 123.3px;
+        height: 170.6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+        background-size: cover;
+        background-image: url('../../images/category-3.jpeg');
+        /* background: linear-gradient(22.05deg, rgba(0, 0, 0, 0.5) 14.41%, rgba(73, 73, 73, 0.5) 57.21%, rgba(255, 255, 255, 0) 100%), url('../../images/category-3.jpeg'); */
+        cursor: pointer;
+    }
+    
+    .cat-one {
+        margin-top: 140px;
+        color: white;
+        font-size: 22px;
+    }
+    
+    .cat-two {
+        margin-top: 140px;
+        color: white;
+        font-size: 22px;
+    }
+    
+    .cat-three {
+        margin-top: 140px;
+        color: white;
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .div-cards {
+        height: 256px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        /* padding: 30px; */
+    }
+    
+    .card-one {
+        width: 123.3px;
+        height: 170.6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+        background-color: blue;
+        /* background-image: url('../images/category-1.jpeg'); */
+        background-size: cover;
+        background-image: url('../../images/category-1.jpeg');
+        /* background: linear-gradient(22.05deg, rgba(0, 0, 0, 0.5) 14.41%, rgba(73, 73, 73, 0.5) 57.21%, rgba(255, 255, 255, 0) 100%), url('../../images/category-1.jpeg'); */
+        cursor: pointer;
+    }
+    
+    .card-two {
+        width: 123.3px;
+        height: 170.6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+        margin-left: 30px;
+        margin-right: 30px;
+        background-size: cover;
+        background-image: url('../../images/category-2.jpeg');
+        /* background: linear-gradient(22.05deg, rgba(0, 0, 0, 0.5) 14.41%, rgba(73, 73, 73, 0.5) 57.21%, rgba(255, 255, 255, 0) 100%), url('../../images/category-2.jpeg'); */
+        cursor: pointer;
+    }
+    
+    .card-three {
+        width: 123.3px;
+        height: 170.6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+        background-size: cover;
+        background-image: url('../../images/category-3.jpeg');
+        /* background: linear-gradient(22.05deg, rgba(0, 0, 0, 0.5) 14.41%, rgba(73, 73, 73, 0.5) 57.21%, rgba(255, 255, 255, 0) 100%), url('../../images/category-3.jpeg'); */
+        cursor: pointer;
+    }
+    
+    .cat-one {
+        margin-top: 140px;
+        color: white;
+        font-size: 20px;
+    }
+    
+    .cat-two {
+        margin-top: 140px;
+        color: white;
+        font-size: 20px;
+    }
+    
+    .cat-three {
+        margin-top: 140px;
+        color: white;
+        font-size: 20px;
+    }
+}

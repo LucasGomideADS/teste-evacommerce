@@ -1,0 +1,58 @@
+.carousel {
+    /* background-image: url('../images/banner.jpeg');  */
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 374.31px;
+    top: 20px;
+    /* left: calc(-5%); */
+    /* background-position: center; */
+    background-size: cover;
+    /* transform: rotate(-3deg); */
+    background-image: url('../../images/banner.jpeg');
+    /* background: linear-gradient(90.99deg, #000000 1.53%, rgba(32, 32, 32, 0.52) 56.83%, rgba(196, 196, 196, 0) 98.06%), url('../../images/banner.jpeg'), no-repeat; */
+    /* transform: matrix(1, -0.05, 0.07, 1, 0, 0); */
+}
+
+/* .img-carousel {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+
+} */
+
+.title {
+    z-index: 1;
+    color: white;
+    margin-left: 80px;
+    margin-top: 180px;
+    font-weight: 400;
+    /* transform: rotate(3deg); */
+}
+
+.sub {
+    color: white;
+    margin-left: 80px;
+    margin-top: -15px;
+    font-weight: 400;
+    /* transform: rotate(-3deg); */
+}
+
+
+@media only screen and (max-width: 1600px) {
+    .title {
+        color: white;
+        margin-left: 150px;
+        margin-top: 180px;
+        font-weight: 400;
+        /* transform: rotate(3deg); */
+    }
+    
+    .sub {
+        color: white;
+        margin-left: 150px;
+        margin-top: -15px;
+        font-weight: 400;
+        /* transform: rotate(3deg); */
+    }
+}

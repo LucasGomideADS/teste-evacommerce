@@ -1,0 +1,142 @@
+.div-principal {
+    width: 100%;
+    height: 452px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    /* margin-top: 50px; */
+    /* margin-left: 100px; */
+}
+
+.product {
+    display: flex;
+    width: 236px;
+    height: 600px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    width: 236px;
+    height: 394px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.carousel-product {
+    margin-bottom: -50px;
+    height: 600px;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.carousel-product::-webkit-scrollbar {
+    display: none;
+}
+
+.img-pr {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.infos-pr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.name-pr {
+    margin-bottom: -5px;
+}
+
+.price {
+    font-size: 12px;
+    font-weight: 400px;
+    margin-bottom: -25px;
+    margin-right: -85px;
+    text-decoration: line-through;
+}
+
+.price-discount {
+    font-size: 32px;
+    font-weight: 700px;
+    color: #E11383;
+    margin-bottom: -5px;
+}
+
+.desc-discount {
+    font-size: 10px;
+    font-weight: 400px;
+}
+
+.btn-pr {
+    width: 220px;
+    height: 42px;
+    border: none;
+    border-radius: 8px;
+    background-color: #E11383;
+    color: white;   
+}
+
+.line-title {
+    margin-left: 51px;
+    width: 64px;
+    border-bottom: 4px solid #E11383;
+    margin-right: 54px;
+}
+
+.title-card {
+    width: 120px;
+    height: 28px;
+    margin-left: 50px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.pass-left {
+    width: 25px;
+    height: 25px;
+}
+
+.pass-right {
+    width: 25px;
+    height: 25px;
+    color: #E11383;
+}
+
+.btn-left {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-right {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.left-b {
+    /* margin-top: -60px; */
+    width: 25px;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: -80px;
+}
+
+.right-b {
+    /* margin-top: -60px; */
+    width: 25px;
+    text-align: center;
+}
+
+.carousel-arrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
